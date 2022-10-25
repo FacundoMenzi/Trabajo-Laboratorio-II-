@@ -847,3 +847,21 @@ where cuatrimestre=@cuatrimestre and p.nombre like @nombre+'%'
 group by m.nombre, p.nombre+ ', '+p.apellido,dt.cuatrimestre
 having 6 < avg(nota)
 order by 'Alumno'
+
+CREATE PROC SP_VER_UTNESTADOS
+as
+select * from Estado_Materias
+
+create proc SP_VER_UTNTECNICATURAS
+as
+select id_Tecnicatura,nombre from Tecnicaturas
+
+
+create proc SP_UTN_TIPOSEXAMENES
+as
+select * from Tipos_Examenes
+
+
+create proc SP_UTN_SITHABITACIONAL
+as
+select * from Sit_Habitacionales
