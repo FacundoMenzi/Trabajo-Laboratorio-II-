@@ -228,7 +228,7 @@ set dateformat dmy
 insert into Personas values ('Candelaria', 'Mello',1,'04/08/2003',2, 3, 1)
 insert into Personas values ('Tomas', 'Ortega',2,'17/12/2003',2, 3, 11)
 insert into Personas values ('Beatriz', 'Kunda',5, '05/07/1975',1, 3, 9)
-insert into Personas values ('Pedro José', 'Crespo',12, '05/07/1975',1, 3, 9)
+insert into Personas values ('Pedro JosÃ©', 'Crespo',12, '05/07/1975',1, 3, 9)
 insert into Personas values ('Oscar', 'Botta',6, '25/08/1977',1, 3, 4)
 insert into Personas values ('Ezequiel', 'Santoro',7, '04/09/1984',2, 3, 3)
 insert into Personas values ('Daniel', 'Olmedo',8, '15/11/1978',1, 3, 9)
@@ -242,16 +242,16 @@ insert into Personas values ('Roger', 'Martinez',16, '13/07/1987',2, 3, 5)
 insert into Personas values ('Adrian', 'Arietti',17, '06/08/1983',1, 3, 7)
 insert into Personas values ('Molla', 'Florencia',18, '18/09/1988',1, 3, 9)
 
-insert into Personas values ('González', 'Miguel ',20, '15/07/1999',2, 3, 5)
-insert into Personas values ('Rodríguez ', 'Juan',21, '12/09/2003',2, 3, 7)
-insert into Personas values ('Gómez', 'Carlos',22, '04/06/2001',2, 3, 3)
-insert into Personas values ('Fernández', 'Alberto',23, '18/11/2003',1, 3, 2)
-insert into Personas values ('López', 'José ',24, '06/06/2002',1, 3, 11)
-insert into Personas values ('Martínez', 'Luis',25, '17/07/2002',2, 3, 8)
-insert into Personas values ('Sánchez ', 'Sofía',26, '06/09/1999',2, 3, 9)
-insert into Personas values ('Romero ', 'María',27, '18/10/2002',2, 3, 7)
-insert into Personas values ('Sánchez ', 'Lucía',28, '06/12/2002',2, 3, 1)
-insert into Personas values ('González  ', 'Martina',29, '19/08/2003',1, 3, 2)
+insert into Personas values ('GonzÃ¡lez', 'Miguel ',20, '15/07/1999',2, 3, 5)
+insert into Personas values ('RodrÃ­guez ', 'Juan',21, '12/09/2003',2, 3, 7)
+insert into Personas values ('GÃ³mez', 'Carlos',22, '04/06/2001',2, 3, 3)
+insert into Personas values ('FernÃ¡ndez', 'Alberto',23, '18/11/2003',1, 3, 2)
+insert into Personas values ('LÃ³pez', 'JosÃ© ',24, '06/06/2002',1, 3, 11)
+insert into Personas values ('MartÃ­nez', 'Luis',25, '17/07/2002',2, 3, 8)
+insert into Personas values ('SÃ¡nchez ', 'SofÃ­a',26, '06/09/1999',2, 3, 9)
+insert into Personas values ('Romero ', 'MarÃ­a',27, '18/10/2002',2, 3, 7)
+insert into Personas values ('SÃ¡nchez ', 'LucÃ­a',28, '06/12/2002',2, 3, 1)
+insert into Personas values ('GonzÃ¡lez  ', 'Martina',29, '19/08/2003',1, 3, 2)
 insert into Personas values ('Recio ', 'Catalina',30, '06/09/2002',1, 3, 7)
 insert into Personas values ('Giambo ', 'Elena',31, '18/02/1999',2, 1, 10)
 
@@ -289,13 +289,13 @@ insert into Alumnos values ( 114113,27,1)
 insert into Alumnos values ( 114114,28,1)
 
 --Tabla Turnos
-insert into Turnos values ('Mañana')
+insert into Turnos values ('MaÃ±ana')
 insert into Turnos values ('Tarde')
 insert into Turnos values ('Noche')
 
 --Tabla Materias TURNO TARDE
-insert into Materias values ('Laboratorio en Computación I', 1, 2)
-insert into Materias values ('Laboratorio en Computación II', 1, 2)
+insert into Materias values ('Laboratorio en ComputaciÃ³n I', 1, 2)
+insert into Materias values ('Laboratorio en ComputaciÃ³n II', 1, 2)
 insert into Materias values ('Programacion II', 3, 2)
 insert into Materias values ('Programacion I', 3, 2)
 insert into Materias values ('Metodologia de la Investigacion', 7, 2)
@@ -307,8 +307,8 @@ insert into Materias values ('Arquitectura de Sistemas Operativos', 5, 2)
 insert into Materias values ('Sistema de Procesamiento de Datos', 5, 2)
 
 --TURNO NOCHE
-insert into Materias values ('Laboratorio en Computación I', 2, 3)
-insert into Materias values ('Laboratorio en Computación II', 4, 3)
+insert into Materias values ('Laboratorio en ComputaciÃ³n I', 2, 3)
+insert into Materias values ('Laboratorio en ComputaciÃ³n II', 4, 3)
 insert into Materias values ('Programacion II', 12, 3)
 insert into Materias values ('Programacion I', 13, 3)
 insert into Materias values ('Metodologia de la Investigacion', 7, 3)
@@ -364,9 +364,9 @@ insert into Materias_Alumnos values (11,114129,3)
 
 
 --Tabla Tecnicaturas
-insert into Tecnicaturas values ('Programación', 'Técnico Universitario en Programación')
+insert into Tecnicaturas values ('ProgramaciÃ³n', 'TÃ©cnico Universitario en ProgramaciÃ³n')
 insert into Tecnicaturas values ('Industrias Alimentarias', 'Tecnico Universitario en Industrias Alimentarias')
-insert into Tecnicaturas values ('Mecatrónica', 'Tecnico Universitario en Mecatrónica')
+insert into Tecnicaturas values ('MecatrÃ³nica', 'Tecnico Universitario en MecatrÃ³nica')
 insert into Tecnicaturas values ('Mantenimiento Industrial', 'Tecnico Universitario en Mantenimiento Industrial')
 insert into Tecnicaturas values ('Telecomunicaciones', 'Tecnico Universitario en Telecomunicaciones')
 
@@ -506,10 +506,10 @@ insert into Detalle_Examenes values(8,114124, 6)
 
 
 --CONSULTAS:
---Mostrar en una misma tabla, la cantidad de regulares y libres, por materia, curso, carrera, año de cursado
+--Mostrar en una misma tabla, la cantidad de regulares y libres, por materia, curso, carrera, aÃ±o de cursado
 --X
 select count(distinct legajo) 'Cantidad','Regular' Estado,m.nombre 'Materia',t.turno 'Turno',
-tec.nombre 'Tecnicatura',year(e.fecha) 'Año cursado'
+tec.nombre 'Tecnicatura',year(e.fecha) 'AÃ±o cursado'
 from Materias_Alumnos ma join Materias m on m.id_materia=ma.id_materia
 	 join turnos t on m.id_turno=t.id_turno
 	 join detalle_Tecnicaturas dt on dt.id_materia=m.id_materia
@@ -531,16 +531,16 @@ group by m.nombre,t.turno,tec.nombre,year(e.fecha)
 order by estado asc
 
 
---Promedio de notas por alumno, materia, año, turno
+--Promedio de notas por alumno, materia, aÃ±o, turno
 --X
-select avg(de.nota) 'Promedio de Notas', de.legajo 'Legajo Alumno',m.nombre 'Materia',year(e.fecha) 'Año',t.turno 'Turno'
+select avg(de.nota) 'Promedio de Notas', de.legajo 'Legajo Alumno',m.nombre 'Materia',year(e.fecha) 'AÃ±o',t.turno 'Turno'
 from Detalle_Examenes de join examenes e on e.id_examen=de.id_examen
 	 join materias m on e.id_materia=m.id_materia
 	 join turnos t on m.id_turno=t.id_turno
 
 group by de.legajo,m.nombre,year(e.fecha),t.turno
 
---Listar los examenes parciales de este año cuya nota superó el promedio general de notas de parciales del año pasado
+--Listar los examenes parciales de este aÃ±o cuya nota superÃ³ el promedio general de notas de parciales del aÃ±o pasado
 --X
 
 select e.id_examen 'ID Examen',de.nota 'Nota',de.legajo 'Legajo del alumno'
@@ -554,20 +554,20 @@ and de.nota > (select avg(de2.nota)
 
 
 
---Mostrar cual fue el promedio de notas por alumno en este año,cual fue su nota mas baja y cual la mas alta
---Siempre y cuando el promedio sea mayor al promedio del año pasado
+--Mostrar cual fue el promedio de notas por alumno en este aÃ±o,cual fue su nota mas baja y cual la mas alta
+--Siempre y cuando el promedio sea mayor al promedio del aÃ±o pasado
 --X
-select legajo 'Legajo',avg(nota) 'Promedio de notas', year(fecha)Año,min(nota) 'Nota mas baja',max(nota) 'Nota mas alta'
+select legajo 'Legajo',avg(nota) 'Promedio de notas', year(fecha)AÃ±o,min(nota) 'Nota mas baja',max(nota) 'Nota mas alta'
 from Detalle_Examenes de join Examenes e on e.id_examen=de.id_examen
 group by legajo, year(fecha)
 having avg(nota) > (select avg(nota) from Detalle_Examenes 
                     where year(fecha)=year(getdate())-1 
 					)
-order by Año,legajo
+order by AÃ±o,legajo
 
 --Mostrar la cantidad de examenes tomados por cada profesor, para los casos en que 
---el nombre del profesor comience con ‘B’ ni con ‘E’, y que las notas de dichos examenes oscilen entre 5 y 8,
---siempre y cuando la cantidad de examenes tomados por el profesor supere el promedio general de los tomados el año
+--el nombre del profesor comience con Â‘BÂ’ ni con Â‘EÂ’, y que las notas de dichos examenes oscilen entre 5 y 8,
+--siempre y cuando la cantidad de examenes tomados por el profesor supere el promedio general de los tomados el aÃ±o
 --anterior
 --X
 
@@ -592,8 +592,8 @@ having count(e.id_examen) > (select avg(e2.id_examen)
 							 )
 exec SP_CONSULTA_1 @anio=2022,@nombre='bea',@nota1=3,@nota2=10
 
---Mostrar en una misma tabla de consultas los alumnos que no rindieron ningun final este año 
---y los que rindieron mas de 2 finales este año ordenados en forma alfabetica por apellido del alumno
+--Mostrar en una misma tabla de consultas los alumnos que no rindieron ningun final este aÃ±o 
+--y los que rindieron mas de 2 finales este aÃ±o ordenados en forma alfabetica por apellido del alumno
 --X
 select distinct a.legajo 'Legajo' , p.apellido 'Apellido' , 'No Rindieron' Tipo 
 from examenes e join Detalle_Examenes de on de.id_examen=e.id_examen
@@ -617,8 +617,8 @@ order by tipo, p.apellido asc
 
 
 --Mostrar el promedio de notas, cantidad de examenes parciales rendidos de cada
---alumno, siempre y cuando el alumno tenga entre 18 y 22 años 
---y el promedio general de notas del alumno sea superior al promedio general del año pasado
+--alumno, siempre y cuando el alumno tenga entre 18 y 22 aÃ±os 
+--y el promedio general de notas del alumno sea superior al promedio general del aÃ±o pasado
 --X
 select a.legajo 'Legajo',datediff(year,p.fecha_nac,getdate())'Edad' ,
 avg(de.nota) 'Nota promedio',count(e.id_examen) 'Cantidad de parciales rendidos'
@@ -634,7 +634,7 @@ having avg(nota) > (select avg(de2.nota)
 					where datediff(year,fecha,getdate())=1
 					)
 
---Alumnos que no han cursado materias este año. 
+--Alumnos que no han cursado materias este aÃ±o. 
 select legajo 'Legajo', p.apellido + ', '+p.nombre 'Alumno'
 from Alumnos a join Personas p on p.id_persona=a.id_persona
 where legajo not in (select distinct legajo 
@@ -642,7 +642,7 @@ where legajo not in (select distinct legajo
 					                          join Examenes e on e.id_materia=m.id_materia
 					 where year(fecha)=year(getdate()))
 
---Listar los profesores que no han tomado examenes este año
+--Listar los profesores que no han tomado examenes este aÃ±o
 select pr.id_profesor 'ID', p.apellido + ', '+p.nombre 'Profesor'
 from Profesores pr join Personas p on p.id_persona=pr.id_persona
 where pr.id_profesor not in (select distinct e.id_profesor 
@@ -664,7 +664,7 @@ having 6 < avg(nota)
 order by 'Alumno'
 
 --Emitir un listado de los alumnos incluyendo el nombre del barrio, mail de contacto,situacion habitacional 
--- y estado civil, de los cuales se sacaron alguna vez una nota mayor a 8 en lo que va del año
+-- y estado civil, de los cuales se sacaron alguna vez una nota mayor a 8 en lo que va del aÃ±o
 
 select a.legajo 'Legajo', nombre+', '+apellido 'Alumno', 
 barrio 'Barrio', email 'E-mail', sh.descripcion 'Situacion Habitacional', estado_civ 'Estado Civil'
@@ -679,3 +679,171 @@ where 8 < any (select nota
 
 group by a.legajo, nombre, apellido, barrio, email,sh.descripcion , estado_civ
 order by 'Legajo'
+
+CREATE proc [dbo].[SP_CONSULTA_1]
+@anio int,
+@nombre varchar(150),
+@nota1 int,
+@nota2 int
+as
+select count(e.id_examen) 'Cant. Examenes', pe.nombre+', '+upper(pe.apellido) 'Profesor'
+from Examenes e join Detalle_Examenes de on e.id_examen=de.id_examen
+	 join profesores p on p.id_profesor=e.id_profesor
+	 join personas pe on pe.id_persona=p.id_persona
+where pe.nombre like @nombre+'%' 
+and de.nota between @nota1 and @nota2
+group by pe.nombre+', '+upper(pe.apellido)
+
+having count(e.id_examen) > (select avg(e2.id_examen)
+				from Examenes e2
+				where @anio=year(fecha)
+
+				)
+CREATE proc [dbo].[SP_CONSULTA_2]
+@anio int
+as
+select pr.id_profesor 'ID', upper(p.apellido) + ', '+p.nombre 'Profesor',c.telefono 'Tel',c.email
+from Profesores pr join Personas p on p.id_persona=pr.id_persona join Contactos c on c.id_contacto=p.id_contacto
+join Barrios b on b.id_barrio=p.id_barrio
+where pr.id_profesor not in (select distinct e.id_profesor 
+							 from Examenes e 
+							 where year(fecha)=@anio)
+order by 'Profesor'
+
+CREATE proc [dbo].[SP_CONSULTA_3]
+@activo int=0,
+@promEx decimal(10,2)=null
+as
+begin
+if (@activo=1 and @promEx is not null)
+	begin
+		select de.legajo 'Legajo Alumno',p.nombre+', '+UPPER(p.apellido),avg(de.nota) 'Promedio de Notas',m.nombre 'Materia',year(e.fecha) 'AÃ±o',t.turno 'Turno'
+		from Detalle_Examenes de join examenes e on e.id_examen=de.id_examen
+		join materias m on e.id_materia=m.id_materia
+		join turnos t on m.id_turno=t.id_turno
+		join Alumnos a on a.legajo=de.legajo
+		join Personas p on p.id_persona=a.id_persona
+		
+		group by de.legajo,m.nombre,year(e.fecha),t.turno,p.nombre+', '+UPPER(p.apellido)
+		having avg(de.nota)=@promEx
+	end
+	else
+		select de.legajo 'Legajo Alumno',p.nombre+', '+UPPER(p.apellido),avg(de.nota) 'Promedio de Notas',m.nombre 'Materia',year(e.fecha) 'AÃ±o',t.turno 'Turno'
+		from Detalle_Examenes de join examenes e on e.id_examen=de.id_examen
+		join materias m on e.id_materia=m.id_materia
+		join turnos t on m.id_turno=t.id_turno
+		join Alumnos a on a.legajo=de.legajo
+		join Personas p on p.id_persona=a.id_persona
+		
+		group by de.legajo,m.nombre,year(e.fecha),t.turno,p.nombre+', '+UPPER(p.apellido)
+end
+
+CREATE proc [dbo].[SP_CONSULTA_4]
+@estado int,
+@tecnicatura int
+as
+select count(distinct legajo) 'Cantidad',em.estado Estado,m.nombre 'Materia',t.turno 'Turno',year(e.fecha) 'AÃ±o cursado'
+from Materias_Alumnos ma join Materias m on m.id_materia=ma.id_materia
+	 join turnos t on m.id_turno=t.id_turno
+	 join detalle_Tecnicaturas dt on dt.id_materia=m.id_materia
+	 join Tecnicaturas tec on tec.id_Tecnicatura=dt.id_tecnicatura
+	 join examenes e on e.id_materia=m.id_materia
+	 join Estado_Materias em on em.id_Estado=ma.id_estado
+where ma.id_estado=@estado and tec.id_tecnicatura=@tecnicatura
+group by m.nombre,t.turno,tec.nombre,year(e.fecha),em.estado
+order by 1 desc,3,5,4
+
+CREATE proc [dbo].[SP_CONSULTA_5]
+@tipo int,
+@edad1 int,
+@edad2 int,
+@promedio decimal(10,2)=null,
+@accion int=0
+as
+if(@accion=1 and @promedio is not null)
+begin
+	select a.legajo 'Legajo',UPPER(p.apellido)+','+p.nombre,datediff(year,p.fecha_nac,getdate())'Edad' ,
+	avg(de.nota) 'Nota promedio',count(e.id_examen) 'Cantidad de parciales rendidos',c.email
+
+	from Examenes e join Detalle_Examenes de on e.id_examen=de.id_examen
+	join Alumnos a on a.legajo=de.legajo
+	join Personas p on p.id_persona=a.id_persona
+	join Contactos c on p.id_contacto=c.id_contacto
+	where e.id_tipo_examen=@tipo and datediff(year,p.fecha_nac,getdate()) between @edad1 and @edad2
+	group by a.legajo,datediff(year,p.fecha_nac,getdate()),UPPER(p.apellido)+','+p.nombre,c.email
+	having avg(nota) > @promedio
+end
+else
+	 select a.legajo 'Legajo',UPPER(p.apellido)+','+p.nombre,datediff(year,p.fecha_nac,getdate())'Edad' ,
+	 avg(de.nota) 'Nota promedio',count(e.id_examen) 'Cantidad de parciales rendidos',c.email
+	 from Examenes e join Detalle_Examenes de on e.id_examen=de.id_examen
+	 join Alumnos a on a.legajo=de.legajo
+	 join Personas p on p.id_persona=a.id_persona
+	 join Contactos c on p.id_contacto=c.id_contacto
+	 where e.id_tipo_examen=@tipo and datediff(year,p.fecha_nac,getdate()) between @edad1 and @edad2
+	 group by a.legajo,datediff(year,p.fecha_nac,getdate()),UPPER(p.apellido)+','+p.nombre,c.email
+	 
+	
+CREATE proc [dbo].[SP_CONSULTA_6]
+@nota int,
+@anio int=2022,
+@sitH int
+as
+select a.legajo 'Legajo', nombre+', '+apellido 'Alumno', 
+barrio 'Barrio', email 'E-mail', sh.descripcion 'Situacion Habitacional', estado_civ 'Estado Civil'
+from Alumnos a join Personas p on p.id_persona=a.id_persona
+               join Barrios b on b.id_barrio=p.id_barrio
+			   join Contactos c on c.id_contacto=p.id_contacto
+			   join Sit_Habitacionales sh on sh.id_habitacional=p.id_habitacional
+			   join Estados_Civiles ec on ec.id_est_civil=p.id_est_civil
+where @nota < any (select nota
+			   from Detalle_Examenes de2 join Examenes e2 on e2.id_examen=de2.id_examen
+			   where year(fecha)=@anio and a.legajo=de2.legajo)
+	 and @sitH=sh.id_habitacional
+
+group by a.legajo, nombre, apellido, barrio, email,sh.descripcion , estado_civ
+order by 'Legajo'	
+
+CREATE proc [dbo].[SP_CONSULTA_7]
+@anio int,
+@tipo int = null,
+@activo int=0
+as
+if (@activo=1 )
+begin
+	select m.nombre 'Materia',e.descripcion'Examen',t.tipo 'Tipo',de.nota 'Nota',de.legajo 'Legajo del alumno', p.apellido+','+p.nombre 'Alumno', c.email
+	from Examenes e join Detalle_Examenes de on de.id_examen=e.id_examen join Materias m on m.id_materia=e.id_materia join alumnos a on a.legajo=de.legajo 
+	join Personas p on p.id_persona=a.id_persona join Tipos_Examenes t on t.id_tipo_examen=e.id_tipo_examen join Contactos c on c.id_contacto=p.id_contacto
+	where year(e.fecha)=YEAR(getdate()) and e.id_tipo_examen=@tipo
+	and de.nota > (select avg(de2.nota)
+				from Detalle_Examenes de2 join examenes e2 on e2.id_examen=de2.id_examen
+				where YEAR(e2.fecha)=@anio and e2.id_tipo_examen=@tipo
+				)
+	order by 3,1,2,4 desc
+end
+else
+begin
+	select m.nombre 'Materia',e.descripcion'Examen',t.tipo 'Tipo',de.nota 'Nota',de.legajo 'Legajo del alumno', p.apellido+','+p.nombre 'Alumno', c.email
+	from Examenes e join Detalle_Examenes de on de.id_examen=e.id_examen join Materias m on m.id_materia=e.id_materia join alumnos a on a.legajo=de.legajo 
+	join Personas p on p.id_persona=a.id_persona join Tipos_Examenes t on t.id_tipo_examen=e.id_tipo_examen join Contactos c on c.id_contacto=p.id_contacto
+	where year(e.fecha)=year(getdate())
+	and de.nota > (select avg(de2.nota)
+				from Detalle_Examenes de2 join examenes e2 on e2.id_examen=de2.id_examen
+				where YEAR(e2.fecha)=@anio)
+	order by 3,1,2,4 desc
+end
+
+CREATE proc [dbo].[SP_CONSULTA_8]
+@cuatrimestre int,
+@nombre varchar(150)
+as
+select p.nombre+ ', '+p.apellido 'Alumno',avg(nota) 'Promedio', m.nombre 'Materia',dt.cuatrimestre 'Cuatrimestre'
+from Detalle_Examenes de join Examenes e on e.id_examen=de.id_examen
+                         join Alumnos a on a.legajo=de.legajo
+                         join Personas p on p.id_persona=a.id_persona
+                         join Materias m on e.id_materia=m.id_materia
+                         join Detalle_Tecnicaturas dt on dt.id_materia=m.id_materia
+where cuatrimestre=@cuatrimestre and p.nombre like @nombre+'%'
+group by m.nombre, p.nombre+ ', '+p.apellido,dt.cuatrimestre
+having 6 < avg(nota)
+order by 'Alumno'
