@@ -679,7 +679,7 @@ where 8 < any (select nota
 
 group by a.legajo, nombre, apellido, barrio, email,sh.descripcion , estado_civ
 order by 'Legajo'
-
+------------------------------------------------------------ PROCEDIMIENTOS ALMACENADOS ------------------------------------------------------------------
 CREATE proc [dbo].[SP_CONSULTA_1]
 @anio int,
 @nombre varchar(150),
