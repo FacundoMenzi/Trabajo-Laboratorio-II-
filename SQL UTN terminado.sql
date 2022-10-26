@@ -516,13 +516,10 @@ from Examenes e join Detalle_Examenes de on e.id_examen=de.id_examen
 	 join personas pe on pe.id_persona=p.id_persona
 where pe.nombre like @nombre+'%' 
 and de.nota between @nota1 and @nota2
+and @anio=year(fecha)
 group by pe.nombre+', '+upper(pe.apellido)
-
-having count(e.id_examen) > (select avg(e2.id_examen)
-				from Examenes e2
-				where @anio=year(fecha)
-
-				)
+				
+				
 CREATE proc [dbo].[SP_CONSULTA_2]
 @anio int
 as
