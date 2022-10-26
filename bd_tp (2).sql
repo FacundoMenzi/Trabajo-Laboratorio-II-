@@ -204,8 +204,7 @@ insert into Contactos values ('elena@gmail.com', '3516790562')
  insert into Contactos values  ( 'danielmilito@gmail.com' , 3513647098)
  insert into Contactos values  ( 'marimolina@gmail.com' , 3512345543)
  insert into Contactos values  ( 'eduardosalta@gmail.com' , 3512333456)
-
- insert into Contactos values ('Ricardiño@gmail.com ' , 3524567865)
+ 
  insert into Contactos values ('Lucaselol@gmail.com ' , 3515678777)
  insert into Contactos values ('Memelinci@gmail.com ' , 3514545671)
  insert into Contactos values ('Pablitoanadon@gmail.com ' , 3598789999)
@@ -280,7 +279,6 @@ insert into personas values('pepe' , 'Suarez',32 , '1995/06/03' , 1 , 3, 4)
  insert into personas values('Mario' , 'Molina',40 , '1988/03/17' , 1 , 3, 4)
  insert into personas values('Eduardo' , 'Salta',41 , '1995/09/30' , 1 , 2, 4)
 
- insert into personas values('Ricardo' , 'Rojas',42 , '1990/05/10' , 2 , 1, 7)
  insert into personas values('Lucas' , 'Parter',43 , '1990/05/10' , 1, 2, 5)
  insert into personas values('Meme' , 'Linci',44 , '1990/05/10' , 2, 2, 8)
  insert into personas values('Pablo' , 'Anadon',45, '1990/05/10' , 2 , 3, 3)
@@ -307,7 +305,7 @@ insert into Profesores values (16)
 insert into Profesores values (39)
 insert into Profesores values (40)
 insert into Profesores values (41)
-insert into Profesores values (42)
+
 
 select * from Profesores pr join Personas p on p.id_persona=pr.id_persona
 --Tabla Alumnos
