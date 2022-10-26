@@ -503,6 +503,20 @@ insert into Detalle_Examenes values(6,114124, 2)
 insert into Detalle_Examenes values(7,114124, 6)
 insert into Detalle_Examenes values(8,114124, 6)
 
+--NUEVO 2021
+insert into Detalle_Examenes values(64,113905, 9)
+insert into Detalle_Examenes values(65,113905, 7)
+insert into Detalle_Examenes values(66,113905, 8)
+insert into Detalle_Examenes values(68,114120, 7)
+insert into Detalle_Examenes values(69,114120, 6)
+insert into Detalle_Examenes values(70,114120, 7)
+insert into Detalle_Examenes values(75,114120, 7)
+insert into Detalle_Examenes values(76,114120, 6)
+insert into Detalle_Examenes values(77,114120, 7)
+insert into Detalle_Examenes values(72,114120, 7)
+insert into Detalle_Examenes values(73,114120, 6)
+insert into Detalle_Examenes values(74,114120, 7)
+
 ------------------------------------------------------------ PROCEDIMIENTOS ALMACENADOS ------------------------------------------------------------------
 CREATE proc [dbo].[SP_CONSULTA_1]
 @anio int,
