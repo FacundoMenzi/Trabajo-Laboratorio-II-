@@ -687,20 +687,34 @@ insert into Detalle_Examenes values(73,114120, 6)
 insert into Detalle_Examenes values(74,114120, 7)
 
 ------------------------------------------------------------ PROCEDIMIENTOS ALMACENADOS ------------------------------------------------------------------
-CREATE proc [dbo].[SP_CONSULTA_1]
+create proc [dbo].[SP_CONSULTA_1]
 @anio int,
-@nombre varchar(150),
-@nota1 int,
-@nota2 int
+@nombre varchar(150)='%',
+@nota1 int=null,
+@nota2 int=null,
+@accion int=0
 as
+if(@accion=1)
+begin
 select count(e.id_examen) 'Cant. Examenes', pe.nombre+', '+upper(pe.apellido) 'Profesor'
-from Examenes e join Detalle_Examenes de on e.id_examen=de.id_examen
+from Examenes e left join Detalle_Examenes de on e.id_examen=de.id_examen
 	 join profesores p on p.id_profesor=e.id_profesor
 	 join personas pe on pe.id_persona=p.id_persona
 where pe.nombre like @nombre+'%' 
 and de.nota between @nota1 and @nota2
 and @anio=year(fecha)
 group by pe.nombre+', '+upper(pe.apellido)
+end
+else
+	begin
+		select count(e.id_examen) 'Cant. Examenes', pe.nombre+', '+upper(pe.apellido) 'Profesor'
+		from Examenes e left join Detalle_Examenes de on e.id_examen=de.id_examen
+		join profesores p on p.id_profesor=e.id_profesor
+		join personas pe on pe.id_persona=p.id_persona
+		where pe.nombre like @nombre+'%' 
+		and @anio=year(fecha)
+		group by pe.nombre+', '+upper(pe.apellido)
+	end
 				
 				
 CREATE proc [dbo].[SP_CONSULTA_2]
