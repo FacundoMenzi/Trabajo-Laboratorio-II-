@@ -1,0 +1,60 @@
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.AssemblyReference.cache
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.FrmConsulta1.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.Properties.Resources.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.GenerateResource.cache
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\bin\Debug\Lab_Consultas.exe.config
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\bin\Debug\Lab_Consultas.exe
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\bin\Debug\Lab_Consultas.pdb
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.exe
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.pdb
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.Contacto.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta2.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.FrmPrincipal.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta3.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta4.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta5.resources
+C:\Users\Tomi\Desktop\UTN\Programacion_2_Cuatrimestre\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta6.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\bin\Debug\Lab_Consultas.exe.config
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\bin\Debug\Lab_Consultas.exe
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\bin\Debug\Lab_Consultas.pdb
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.AssemblyReference.cache
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.SuggestedBindingRedirects.cache
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta2.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta3.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.FrmConsulta1.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta4.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta5.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta6.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Contacto.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.FrmPrincipal.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Properties.Resources.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.GenerateResource.cache
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.CoreCompileInputs.cache
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.exe
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.pdb
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta7.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta8.resources
+D:\Mis cosas\PROGRAMACION\LABORATORIO\Laboratorio II\Trabajo en grupo\Lab_Consultas\obj\Debug\Lab_Consultas.FrmReloj.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\bin\Debug\Lab_Consultas.exe.config
+C:\Users\Tomi\Desktop\Lab_Consultas\bin\Debug\Lab_Consultas.exe
+C:\Users\Tomi\Desktop\Lab_Consultas\bin\Debug\Lab_Consultas.pdb
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.AssemblyReference.cache
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta2.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\WINDOWS_FORM.FrmConsulta3.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.FrmConsulta1.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta4.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta5.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta6.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta7.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Consultas.FrmConsulta8.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Contacto.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.FrmPrincipal.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.Properties.Resources.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.FrmReloj.resources
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.GenerateResource.cache
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.exe
+C:\Users\Tomi\Desktop\Lab_Consultas\obj\Debug\Lab_Consultas.pdb
