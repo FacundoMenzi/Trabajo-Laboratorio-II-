@@ -955,3 +955,12 @@ select * from Tipos_Examenes
 create proc SP_UTN_SITHABITACIONAL
 as
 select * from Sit_Habitacionales
+
+create proc SP_UTNVER_MATERIAS
+as
+SELECT id_materia,nombre FROM Materias
+
+create proc SP_UTN_PROXIMO
+@next int output
+as
+select @next=max(id_tecnicatura)+1 from Tecnicaturas
