@@ -942,6 +942,7 @@ CREATE PROC SP_VER_UTNESTADOS
 as
 select * from Estado_Materias
 
+
 create proc SP_VER_UTNTECNICATURAS
 as
 select id_Tecnicatura,nombre from Tecnicaturas
@@ -955,7 +956,7 @@ select * from Tipos_Examenes
 create proc SP_UTN_SITHABITACIONAL
 as
 select * from Sit_Habitacionales
-
+-----------------------------------------SP PARA PROG------------------------------
 create proc SP_UTNVER_MATERIAS
 as
 SELECT id_materia,nombre FROM Materias
@@ -964,3 +965,62 @@ create proc SP_UTN_PROXIMO
 @next int output
 as
 select @next=max(id_tecnicatura)+1 from Tecnicaturas
+
+CREATE procedure [dbo].[SP_UTN_VER_TECNICATURAS_BAJAS]
+as 
+select * from tecnicaturas where estado=0
+
+create procedure [dbo].[SP_UTN_VER_TECNICATURAS]
+as 
+select * from tecnicaturas where estado=1
+
+create procedure [dbo].[SP_UTN_VER_DETALLES]
+@idTecnicatura_ int
+as 
+select id_detalle_tec, id_tecnicatura, d.id_materia, m.nombre, cuatrimestre, anio_cursado 
+from detalle_tecnicaturas d join Materias m on d.id_materia=m.id_materia
+where id_tecnicatura=@idTecnicatura_
+
+create procedure [dbo].[SP_UTN_MODIFICAR]
+@idTecnicatura_ int,
+@nombre varchar(60), 
+@titulo varchar(60)
+as
+delete from Detalle_Tecnicaturas where id_tecnicatura=@idTecnicatura_
+update Tecnicaturas set nombre=@nombre, titulo=@titulo where id_tecnicatura=@idTecnicatura_
+
+create PROCEDURE [dbo].[SP_UTN_INSERTAR_MAESTRO] 
+	@nombre varchar(60),
+	@titulo varchar(60),
+	@estado int,
+	@id_tecnicatura int OUTPUT
+AS
+BEGIN
+	INSERT INTO Tecnicaturas(nombre,titulo,estado)
+    VALUES (@nombre,@titulo,1);
+    --Asignamos el valor del último ID autogenerado (obtenido --  
+    --mediante la función SCOPE_IDENTITY() de SQLServer)	
+    SET @id_tecnicatura = SCOPE_IDENTITY();
+
+END
+
+create PROCEDURE [dbo].[SP_INSERTAR_UTN_DETALLE] 
+	
+	@id_tecnicatura int, 
+	@id_materia int,
+	@cuatrimestre int,
+	@anio int
+AS
+BEGIN
+	INSERT INTO Detalle_Tecnicaturas(id_tecnicatura,id_materia,cuatrimestre,anio_cursado)
+    VALUES (@id_tecnicatura,@id_materia,@cuatrimestre,@anio);
+  
+END
+
+create procedure [dbo].[SP_UTN_ALTA_BAJA]
+@idTecnicatura_ int,
+@estado int=1
+as 
+update Tecnicaturas 
+set estado=@estado
+where @idTecnicatura_=id_Tecnicatura
